@@ -36,3 +36,16 @@ header .navigation .navigation-items a {
   margin-left: 30px;
   transition: 0.3s ease;
 }
+header .navigation .navigation-items a::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+header .navigation .navigation-items a:hover:before {
+  width: 100%;
+}
