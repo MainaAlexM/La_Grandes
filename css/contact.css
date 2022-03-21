@@ -1,5 +1,5 @@
 .contact-page{
-    background-image: url("../assets/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg");
+    background-image: url("../assets/photo-1618773928121-c32242e63f39.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10%;
@@ -8,9 +8,12 @@
     height: 97vh;
     margin-left: 100px;
     margin-right: 100px;
-    color: #fff;
+    color:black;
     background-attachment: fixed;
     filter: brightness(1.75);
+    padding-top: 10%;
+    font-family: 'Libre Baskerville', serif;
+    background-attachment: fixed;
 
     
 
