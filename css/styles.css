@@ -18,7 +18,7 @@ header {
   transition: 0.5s ease;
 }
 header .brand {
-  color: #000;
+  color: #0f0f0f;
   font-size: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
@@ -29,7 +29,7 @@ header .navigation {
 }
 header .navigation .navigation-items a {
   position: relative;
-  color: #000;
+  color: #0f0f0f;
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
@@ -39,7 +39,7 @@ header .navigation .navigation-items a {
 header .navigation .navigation-items a::before {
   content: "";
   position: absolute;
-  background: #000;
+  background: #0f0f0f;
   width: 0;
   height: 3px;
   bottom: 0;
@@ -60,4 +60,46 @@ section {
   justify-content: center;
   flex-direction: column;
   background: #c5a880;
+}
+.home .content {
+  z-index: 888;
+  color: #0f0f0f;
+  width: 70%;
+  margin-top: 50px;
+}
+.home .content h1 {
+  font-size: 4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 95px;
+  margin-bottom: 40px;
+}
+.home .content h1 span {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.home .content p {
+  margin-bottom: 65px;
+}
+.home .content a {
+  background: #0f0f0f;
+  padding: 15px 35px;
+  color: #d4b499;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.home .media-icons {
+  z-index: 888;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease;
+}
+.home .media-icons a {
+  color: #0f0f0f;
+  font-size: 1.6em;
 }
