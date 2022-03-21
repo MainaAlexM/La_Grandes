@@ -1,0 +1,17 @@
+.contact-page{
+    background-image: url("../assets/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+    margin: auto;
+    text-align: center;
+    height: 97vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #fff;
+    background-attachment: fixed;
+    filter: brightness(1.75);
+
+    
+
+}
