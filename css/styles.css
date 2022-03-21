@@ -52,3 +52,12 @@ header .navigation .navigation-items a:hover:before {
 section {
   padding: 100px 200px;
 }
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #c5a880;
+}
