@@ -1,20 +1,31 @@
-#Whatwedo{
-    min-height: 30vh;
-    align-items: center;
-  
-  }
-  .whatwedo-pic {
-    background-color: #ffa500;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-  }
-  #whatwedo .content{
-    padding: 30px 20px 50px;
-    width: 100%;
-    background-color: #ffa500;
-    float:right;
-    text-align: justify;
-    overflow-x: hidden;
-  }
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(beige brown );
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.pic{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    object-fit: cover;
+}
+.card{
+    height: 600px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background: beige;
+}
+.info{
+    padding: 20px 0;
+    background: rgb(beige brown );
+    border-radius: 0px 0px 10px 10px;
+}
