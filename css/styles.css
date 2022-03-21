@@ -49,3 +49,6 @@ header .navigation .navigation-items a::before {
 header .navigation .navigation-items a:hover:before {
   width: 100%;
 }
+section {
+  padding: 100px 200px;
+}
