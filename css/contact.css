@@ -1,7 +1,16 @@
 body  {
     background-image: url("../assets/h1.jpg");
     background-color: blue;
-    color: white;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration-color: chartreuse;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
   }
   form-control {
     background-color: rgba(0, 0,0, 0);
