@@ -1,20 +1,38 @@
-.contact-page{
-    background-image: url("../assets/photo-1618773928121-c32242e63f39.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10%;
-    margin: auto;
-    text-align: center;
-    height: 97vh;
-    margin-left: 100px;
-    margin-right: 100px;
-    color:black;
-    background-attachment: fixed;
-    filter: brightness(1.75);
-    padding-top: 10%;
-    font-family: 'Libre Baskerville', serif;
-    background-attachment: fixed;
-
-    
+body  {
+    background-image: url("../assets/h1.jpg");
+    background-color: blue;
+    color: white;
+  }
+  form-control {
+    background-color: rgba(0, 0,0, 0);
 
 }
+#name::placeholder {
+    color: blue;
+    
+}
+#email::placeholder {
+    color: black;
+    
+}
+#message::placeholder {
+    color: black;
+    
+}
+.submit {
+    color: black;
+    background-color:rgba(0, 0,0, 0) ;
+    margin-top: 10px;
+}
+.US {
+    text-align: center;
+    color: white;
+}
+.footer {
+    position: static;
+    text-align: center;
+}
+    
+
+
+
