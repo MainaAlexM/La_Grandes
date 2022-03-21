@@ -12,20 +12,42 @@ body{
     margin: 40px 0;
 }
 .pic{
-    width: 250px;
+    width: 300px;
     height: 350px;
     position: relative;
     object-fit: cover;
 }
 .card{
-    height: 600px;
-    width: 250px;
+    height: 700px;
+    width: 300px;
     margin: 20px;
     border-radius: 10px 10px 10px 10px;
     background: beige;
+}
+.card:hover{
+    transform: scale(0.9);
 }
 .info{
     padding: 20px 0;
     background: rgb(beige brown );
     border-radius: 0px 0px 10px 10px;
+}
+.text-1{
+    text-align: center;
+    font-size: 21px;
+    color: #040f74;
+}
+.text-2{
+    margin: 10px 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+@media(max-width:1000px)
+{
+    .container{
+        display:flex
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        }
 }
