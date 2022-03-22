@@ -1,14 +1,12 @@
 body  {
     background-image: url("../assets/h1.jpg");
-    background-color: blue;
-    color: blue;
+    background-color: #C5A880;
+    color:black;
     background-repeat: no-repeat;
     background-size: cover;
-    backface-visibility: visible;
     background-attachment: fixed;
     padding-left: 10%;
     padding-right: 10%;
-    text-decoration-color: chartreuse;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Lora', serif;
     margin-top: 5%;
@@ -39,7 +37,7 @@ body  {
     
 }
 .submit {
-    color: blue;
+    color: black;
     background-color:rgba(0, 0,0, 0) ;
     margin-top: 10px;
 }
@@ -78,7 +76,7 @@ input[type=text], select {
   
   div {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #C5A880;
     padding: 20px;
   }
     
