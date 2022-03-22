@@ -1,10 +1,8 @@
-* {
+/* 
 	font-family: "Hurricane", cursive;
 	font-family: "Poppins", sans-serif;
-    font-family: 'Playball', cursive;
-	font-family: "Raleway", sans-serif;
-	font-family: "Ubuntu", sans-serif;
-}
+    font-family: 'Playball', cursive; */
+
 .intro {
 	height: 100vh;
 	background-image: url("../images/reservation.jpg");
@@ -15,8 +13,10 @@
 .intro-page h2 {
 	text-align: center;
 	padding-top: 20rem;
-	color: rgb(230, 135, 11);
-	font-size: 3em;
+    color: black;
+	/* color: rgb(230, 135, 11); */
+	font-size: 4em;
+    font-family: '';  font-style: italic;
 	font-weight: 900;
 }
 .display img {
@@ -30,11 +30,31 @@ color: burlywood;
 	font-family: "Ubuntu";
 	font-style: italic;
 }
-.display h2{
+.heading-tags{
     text-align: center;
     text-decoration: underline #C5A880 1rem;
     margin: 2rem;
     font-family: 'Playball', cursive;
-    font-style: italic;
-    font-size: xx-large;
+    font-size: 3em;
+}
+
+.sub-head-tags{
+    margin: 2rem;
+    color: #0F0F0F;
+    font-family: 'Playball', cursive;
+}
+.preferred-delivery{
+    margin: 2em 0em 1.5em;
+}
+.order-img{
+    height: 12rem;
+}
+.form-img{
+    height: 5rem;
+}
+.right-align{
+    float: right;
+}
+.left-align{
+    float: left;
 }
