@@ -134,6 +134,8 @@ section {
   height: 100%;
   object-fit: cover;
 }
+
+/*Edit video-slide*/
 .slider-navigation {
   z-index: 888;
   position: relative;
@@ -172,6 +174,7 @@ section {
   transition: 2s ease;
   transition-property: clip-path;
 }
+
 /* Header Responsiveness*/
 @media (max-width: 1040px) {
   header {
@@ -274,6 +277,8 @@ section {
   padding: 0;
   box-sizing: border-box;
 } */
+
+/*Edit footer*/
 .container {
   max-width: 1170px;
   margin: auto;
