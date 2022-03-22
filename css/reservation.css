@@ -58,3 +58,16 @@ color: burlywood;
 .left-align{
     float: left;
 }
+.btn{
+    background-color: black;
+    border: black 1rem;
+}
+.btn:hover{
+    background-color:#C5A880;
+}
+.btn::after{
+    background-color: aliceblue;
+}
+.btn:active{
+    background-color: aliceblue;
+}
