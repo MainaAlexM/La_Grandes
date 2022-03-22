@@ -24,7 +24,7 @@
         <div class="display row row-cols-2{-sm|-md|-lg|-xl|-xxl}">
             <h2 class="heading-tags">Make an Appointment</h2>
             
-            <div class="book-meal col-sm">
+            <div class="container book-meal col-sm">
                 <h3>Book for a meal Before Arrival</h3>
                 <div class="meals-booking">
                     <img src="./images/book_a_meal.jpg" alt="Book_a_meal" class="meals">
@@ -35,10 +35,12 @@
 
             <div class="book-meal col-sm">
                 <h3>Book Space In Advance</h3>  
-                <div class="space-booking col-sm">
+                <div class="meals-booking space-booking col-sm">
                     <img src="./images/fam_meetup.jpg" alt="Book_space" class="space">
                     <p>Beat the inconveniences of finding a venue for meet-up with family, friends or colleagues as you enjoy your favorite meal or drink from our varieties.</p>
-                    <button type="submit" id="book" class="btn btn-primary mt-3 venue-booking">Book a Venue Now</button>
+                    <div class="button">
+                        <button type="submit" id="book" class="btn btn-primary mt-3 venue-booking">Book a Venue Now</button>
+                    </div>
                 </div>
             </div>
 
@@ -55,7 +57,7 @@
                     <h4 class="sub-head-tags">We deliver For Free in Town</h4>
                     <div class="meals-booking">
                         <img class="order-img" src="./images/delivery1.jpg" alt="Order_a_meal" class="meals">
-                        <p>Order a meal for one or many at your convenient time. You will find it fresh and hot!</p>
+                        <p>No hustle seeking an empty slot for lunch. Order meals with us and have them delivered right at your office. You can also book and have the meal reserved for you.</p>
                         <button type="submit" id="book" class="btn btn-primary mt-3 meal-booking">Go To Order</button>
                     </div>
                 </div>
@@ -63,7 +65,7 @@
                     <h4 class="sub-head-tags">Pick Up the Meal Yourself</h4>
                     <div class="meals-booking">
                         <img class="order-img" src="./images/pick_yourself.jpg" alt="Order_a_meal" class="meals">
-                        <p>Order a meal for one or many and set time to pick it up at the hotel.</p>
+                        <p>Order a meal for one or many and set time to pick it up at the hotel. Our chefs will hand it to you fresh and hot. You can also change your mind and ask for a delivery.</p>
                         <button type="submit" id="book" class="btn btn-primary mt-3 meal-booking">Go To Order</button>
                     </div>
                 </div>
@@ -87,120 +89,138 @@
             <h2 class="heading-tags">Order From Our Menu</h2>
 
             <form id="form-input">
-                <div class="form-group">
-                    <h4 class="sub-head-tags">A Bright Day Starts With a Power Breakfast</h4>
-                    <p>We offer a variety of meals and drinks for your breakfast</p> 
-                    <!-- <label for="breakfast">Breakfast</label> -->
-                    <div class="breakfast-choice choices">
-                        <img class="form-img left-align" src="./images/breakfast.jpg" alt="breakfast">
-                        <div class="select-group">
-                            <select class="form-control" id="snacks">
-                                <option value="default" id="default">Delicious Snacks</option>
-                                <option value="option1">Option1</option>
-                                <option value="option2">Option2</option>
-                                <option value="option3">Option3</option>
-                                <option value="option4">Option4</option>
-                                <option value="option5">Option5</option>
-                                <option value="option6">Option6</option>
-                                <option value="option7">Option7</option>
-                                <option value="option8">Option8</option>
-                                <option value="option9">Option9</option>
-                                <option value="option10">Option10</option>
-                                <option value="option11">Option11</option>
-                                <option value="option12">Option12</option>
-                            </select>
+
+                <div class="form-rows row ">
+                    <div class="form-group">
+                        <h4 class="sub-head-tags">A Bright Day Starts With a Power Breakfast</h4>
+                        <p>We offer a variety of meals and drinks for your breakfast. <br> Choose from the boxes below.</p> 
+                        
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <div class="breakfast-choice choices col-sm-4">
+                                    <!-- <img class="form-img left-align" src="./images/breakfast.jpg" alt="breakfast"> -->
+                                    <div class="select-group">
+                                        <label for="breakfast"> Power Breakfast</label>
+                                        <select class="form-control" id="breakfast">
+                                            <option value="default" id="default">Select Breakfast Here</option>
+                                            <option value="option1">Option1</option>
+                                            <option value="option2">Option2</option>
+                                            <option value="option3">Option3</option>
+                                            <option value="option4">Option4</option>
+                                            <option value="option5">Option5</option>
+                                            <option value="option6">Option6</option>
+                                            <option value="option7">Option7</option>
+                                            <option value="option8">Option8</option>
+                                            <option value="option9">Option9</option>
+                                            <option value="option10">Option10</option>
+                                            <option value="option11">Option11</option>
+                                            <option value="option12">Option12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="form-group">
+                                
+                                <div class="meals-choice choices col-sm-4">
+                                    <!-- <img class="form-img right-align" src="./images/meals.jpg" alt="meals"> -->
+                                    <div class="select-group">
+                                        <label for="hotel-meals">Delicious Meals</label>
+                                        <select class="form-control" id="meal">
+                                            <option value="default" id="default">Select a Meal Here</option>
+                                            <option value="option1">Option1</option>
+                                            <option value="option2">Option2</option>
+                                            <option value="option3">Option3</option>
+                                            <option value="option4">Option4</option>
+                                            <option value="option5">Option5</option>
+                                            <option value="option6">Option6</option>
+                                            <option value="option7">Option7</option>
+                                            <option value="option8">Option8</option>
+                                            <option value="option9">Option9</option>
+                                            <option value="option10">Option10</option>
+                                            <option value="option11">Option11</option>
+                                            <option value="option12">Option12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of col 1 Booking -->
+    
+                    <div class="col-sm">
+                        <div class="form-group">
+    
+                            <div class="drinks-choice choices col-sm-4">
+                                <!-- <img class="form-img left-align" src="./images/drink.jpg" alt="drinks"> -->
+                                <div class="select-group">
+                                    <label for="hotel-drinks">Fresh Drinks</label>
+                                    <select class="form-control" id="snacks">
+                                        <option value="default" id="default">Select Your Drink Here</option>
+                                        <option value="option1">Option1</option>
+                                        <option value="option2">Option2</option>
+                                        <option value="option3">Option3</option>
+                                        <option value="option4">Option4</option>
+                                        <option value="option5">Option5</option>
+                                        <option value="option6">Option6</option>
+                                        <option value="option7">Option7</option>
+                                        <option value="option8">Option8</option>
+                                        <option value="option9">Option9</option>
+                                        <option value="option10">Option10</option>
+                                        <option value="option11">Option11</option>
+                                        <option value="option12">Option12</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="form-group">
+                            <div class="snacks-choice choices col-sm-4">
+                                <!-- <img class="form-img right-align" src="./images/snack.jpg" alt="snacks"> -->
+                                <p></p>
+                                <div class="select-group">
+                                    <label for="snacks">Awesome Snacks</label>
+                                    <select class="form-control" id="snacks">
+                                        <option value="default" id="default">Select Snacks here</option>
+                                        <option value="option1">Option1</option>
+                                        <option value="option2">Option2</option>
+                                        <option value="option3">Option3</option>
+                                        <option value="option4">Option4</option>
+                                        <option value="option5">Option5</option>
+                                        <option value="option6">Option6</option>
+                                        <option value="option7">Option7</option>
+                                        <option value="option8">Option8</option>
+                                        <option value="option9">Option9</option>
+                                        <option value="option10">Option10</option>
+                                        <option value="option11">Option11</option>
+                                        <option value="option12">Option12</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                        <!-- End of Col2 Booking -->
                 </div>
+                <!-- End of Form Rows -->
 
-                <div class="form-group">
-                    <!-- <label for="hotel-meals">Select a Meal</label> -->
-                    <div class="meals-choice choices">
-                        <img class="form-img right-align" src="./images/meals.jpg" alt="meals">
-                        <div class="select-group">
-                            <select class="form-control" id="snacks">
-                                <option value="default" id="default">Delicious Snacks</option>
-                                <option value="option1">Option1</option>
-                                <option value="option2">Option2</option>
-                                <option value="option3">Option3</option>
-                                <option value="option4">Option4</option>
-                                <option value="option5">Option5</option>
-                                <option value="option6">Option6</option>
-                                <option value="option7">Option7</option>
-                                <option value="option8">Option8</option>
-                                <option value="option9">Option9</option>
-                                <option value="option10">Option10</option>
-                                <option value="option11">Option11</option>
-                                <option value="option12">Option12</option>
-                            </select>
+                    <div class="mode container">
+                        <h5 class="preferred-delivery">How Do You Want Your Package Delivered?</h5>
+                        <div class="delivery-mode">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="pick-up" value="pick-up" />
+                                <label class="form-check-label" for="pick-up">Pick it Up Myself</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="office-delivery" value="office" />
+                                <label class="form-check-label" for="office">Office Delivery in Town</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="office-delivery" value="office" />
+                                <label class="form-check-label" for="office">Home Delivery / Outside Town</label>
+                            </div>
                         </div>
+
                     </div>
-                </div>
-
-                <div class="form-group">
-                    <!-- <label for="hotel-drinks">Select a Drink</label> -->
-                    <div class="drinks-choice choices">
-                        <img class="form-img left-align" src="./images/drink.jpg" alt="drinks">
-                        <div class="select-group">
-                            <select class="form-control" id="snacks">
-                                <option value="default" id="default">Delicious Snacks</option>
-                                <option value="option1">Option1</option>
-                                <option value="option2">Option2</option>
-                                <option value="option3">Option3</option>
-                                <option value="option4">Option4</option>
-                                <option value="option5">Option5</option>
-                                <option value="option6">Option6</option>
-                                <option value="option7">Option7</option>
-                                <option value="option8">Option8</option>
-                                <option value="option9">Option9</option>
-                                <option value="option10">Option10</option>
-                                <option value="option11">Option11</option>
-                                <option value="option12">Option12</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <!-- <label for="snacks">Snacks</label> -->
-                    <div class="snacks-choice choices">
-                        <img class="form-img right-align" src="./images/snack.jpg" alt="snacks">
-                        <div class="select-group">
-                            <select class="form-control" id="snacks">
-                                <option value="default" id="default">Delicious Snacks</option>
-                                <option value="option1">Option1</option>
-                                <option value="option2">Option2</option>
-                                <option value="option3">Option3</option>
-                                <option value="option4">Option4</option>
-                                <option value="option5">Option5</option>
-                                <option value="option6">Option6</option>
-                                <option value="option7">Option7</option>
-                                <option value="option8">Option8</option>
-                                <option value="option9">Option9</option>
-                                <option value="option10">Option10</option>
-                                <option value="option11">Option11</option>
-                                <option value="option12">Option12</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <h5 class="preferred-delivery">How Do You Want Your Package Delivered?</h5>
-                    <div class="delivery-mode">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" id="pick-up" value="pick-up" />
-                            <label class="form-check-label" for="pick-up">Pick it Up Myself</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" id="office-delivery" value="office" />
-                            <label class="form-check-label" for="office">Office Delivery in Town</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" id="office-delivery" value="office" />
-                            <label class="form-check-label" for="office">Home Delivery / Outside Town</label>
-                        </div>
-                    </div>
-
-                </div>
+                
 
                 <button type="submit" id="checkout" class="btn btn-primary mt-3">Place Order</button>
 
@@ -210,6 +230,8 @@
 
     </div>
     <!-- End of the html body -->
+
+    <!-- Footer From Grace -->
 
     <script src="./js/reservation.js"></script>
 </body>

@@ -25,10 +25,21 @@
 .head-underline{
 color: burlywood;
 }
-
+.book-meal{
+    padding-left: 2rem;
+}
+.book-meal h3{
+    padding: 1rem 2rem;
+}
+.meals-booking{
+    padding: 0.4rem;
+}
 .meals-booking p {
 	font-family: "Ubuntu";
 	font-style: italic;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 .heading-tags{
     text-align: center;
@@ -39,28 +50,31 @@ color: burlywood;
 }
 
 .sub-head-tags{
-    margin: 2rem;
+    margin: 0rem 2rem 2rem;
     color: #0F0F0F;
     font-family: 'Playball', cursive;
 }
 .preferred-delivery{
-    margin: 2em 0em 1.5em;
+    margin: 2em 1em 1.5em;
 }
 .order-img{
-    height: 12rem;
+    height: 15rem;
 }
 .form-img{
     height: 5rem;
 }
-.right-align{
+/* .right-align{
     float: right;
 }
 .left-align{
     float: left;
-}
+} */
 .btn{
     background-color: black;
     border: black 1rem;
+}
+.button{
+    margin: 0 auto;
 }
 .btn:hover{
     background-color:#C5A880;
@@ -70,4 +84,45 @@ color: burlywood;
 }
 .btn:active{
     background-color: aliceblue;
+}
+.choices{
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 40%;
+    margin: 0 auto;
+}
+.choices img{
+    height: 20rem;
+    margin: 0rem 2rem;
+}
+.select-group>select{
+    background-color: #F3D5C0;
+    width: 15rem;
+    text-align: center;
+}
+.select-group>label{
+    text-align: left;
+    padding: 0rem 0.1rem 0.4rem 0rem;
+    width: 15rem;
+}
+/* .form-contol{
+    width: 4rem;
+} */
+.form-check-input{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0rem 1.5rem;
+}
+.form-group{
+    padding: 2rem;
+}
+.form-group p{
+    font-size: 1.2rem;
+}
+.mode{
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
