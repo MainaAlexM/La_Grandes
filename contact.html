@@ -17,8 +17,7 @@
             <h2>Contact Us</h2>
           </div>
         <div class="row" id="contactdetails">
-          <div class="col-md-1">
-             
+          <div class="col-md-1">        
           </div>
           <div class="col-md-3 text-justify">
             <h2>Location</h2>
@@ -39,17 +38,21 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" placeholder="Name...">
+                        <label for="exampleInputEmail1" class="form-label">User name</label>
+                        <input type="text" class="form-control" id="name" placeholder="...">
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-10">
                     <div class="form-group">
-                      <input type="email" class="form-control" id="email" placeholder="Email...">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="...">
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea type="text" class="form-control"  id="message"cols="10" rows="4" placeholder="Your message here..."></textarea>
+                        <label for="exampleInputEmail1" class="form-label">Message</label>
+                        <input type="message" class="form-control" id="message" placeholder="...">
+                          
                     </div>
                   </div>
                 </div>
@@ -67,22 +70,34 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="./js/contact.js"></script>
 </html>
-<!-- <div>
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-    
-      <input type="submit" value="Submit">
-    </form> -->
-  </div>
-  
+
+<!-- <div class="container">
+    <div class="contact">
+      <h2 class="us">Fill the form please!</h2>
+      <form onsubmit="validateForm()" action="">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">User name</label>
+              <input type="text" class="form-control" id="name" placeholder="...">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="...">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">Message</label>
+                <input type="message" class="form-control" id="message" placeholder="...">
+              
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </form>
+   -->

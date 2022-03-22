@@ -23,6 +23,7 @@ body  {
 }
 #email::placeholder {
     color: blue;
+    box-sizing: border-box;
     
 }
 #message::placeholder {
@@ -33,7 +34,7 @@ body  {
     box-sizing: border-box;
     border: 2px solid-grey;
     border-radius: 5px;
-    background-color: #3CBC8D;
+    background-color: white;
     color: white;
     
 }
