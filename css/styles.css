@@ -125,4 +125,13 @@ section {
   header .navigation {
     display: none;
   }
+  .menu-btn {
+    background: url(../images/menu.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
 }
