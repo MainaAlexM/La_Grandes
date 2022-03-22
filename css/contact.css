@@ -1,7 +1,7 @@
 body  {
     background-image: url("../assets/h1.jpg");
     background-color: blue;
-    color: black;
+    color: blue;
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: visible;
@@ -11,6 +11,7 @@ body  {
     text-decoration-color: chartreuse;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Lora', serif;
+    margin-top: 5%;
   }
   form-control {
     background-color: rgba(0, 0,0, 0);
@@ -21,15 +22,23 @@ body  {
     
 }
 #email::placeholder {
-    color: black;
+    color: blue;
     
 }
 #message::placeholder {
-    color: black;
+    color: blue;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid-grey;
+    border-radius: 10px;
+    background-color: #3CBC8D;
+    color: white;
     
 }
 .submit {
-    color: black;
+    color: blue;
     background-color:rgba(0, 0,0, 0) ;
     margin-top: 10px;
 }
