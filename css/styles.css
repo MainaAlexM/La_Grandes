@@ -362,3 +362,7 @@ ul {
     width: 100%;
   }
 }
+.container-fluid {
+  color: #fff;
+  text-align: center;
+}
