@@ -19,7 +19,7 @@
 .display img {
 	height: 25rem;
 }
-appointment{
+.appointment{
     margin: 0rem auto;
 }
 .appointment h3{
@@ -49,6 +49,7 @@ color: burlywood;
     padding: 2rem 2rem;
     text-align: center;
     font-size: 1.2rem;
+    color: #0F0F0F;
 }
 
 .heading-tags{
@@ -57,12 +58,14 @@ color: burlywood;
     margin: 2rem;
     font-family: 'Playball', cursive;
     font-size: 3em;
+    color: #0F0F0F;
 }
 
 .sub-head-tags{
     margin: 0rem 2rem 2rem;
     color: #0F0F0F;
     font-family: 'Playball', cursive;
+    font-size: 2rem;
 }
 .preferred-delivery{
     margin: 2em 1em 1.5em;
@@ -101,11 +104,13 @@ color: burlywood;
     background-color: #F3D5C0;
     width: 15rem;
     text-align: center;
+    margin: 0rem auto;
 }
 .select-group>label{
     text-align: left;
     padding: 0rem 0.1rem 0.4rem 0rem;
     width: 15rem;
+    font-weight: 800;
 }
 .form-check-input{
     height: 1.5rem;
@@ -138,9 +143,11 @@ color: burlywood;
 }
 .form-blur{
     padding: 5rem;
-    background: rgba(250, 239, 212, 0.6);
+    background: rgba(250, 239, 212, 0.7);
     background-size: cover;
     backdrop-filter: blur(0.1px);
     font-size: larger;
     margin: 0rem;
+    color: #0F0F0F;
+
 }
