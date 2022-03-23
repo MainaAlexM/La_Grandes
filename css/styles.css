@@ -279,15 +279,15 @@ section {
 } */
 
 /*Edit footer*/
-.container {
+.container-fluid .were {
   max-width: 1170px;
   margin: auto;
 }
-.row {
+.row-grace {
   display: flex;
   flex-wrap: wrap;
 }
-ul {
+.footer-col ul {
   list-style: none;
 }
 .footer {
@@ -362,7 +362,8 @@ ul {
     width: 100%;
   }
 }
-.container-fluid {
+/*copyright edit*/
+.grace {
   color: #fff;
   text-align: center;
 }
