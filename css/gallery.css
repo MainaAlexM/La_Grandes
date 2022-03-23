@@ -6,17 +6,25 @@ background-attachment: fixed;
 background-color:  #C5A880;
 background-size: auto;
 color: #000;
-
+}
+.header-eva{
+  padding: 2em;
+}
+.gallery{
+  padding-top: 5em;
 }
 h1 {
     text-align: center;
 }
+
 P {
     text-align: center;
     padding: 10px 0px;
     margin: 10px,20px;
-    
-
+}
+.gallery p{
+  color: black;
+    font-size: 1.3rem;
 }
  div {
     text-align: center; 

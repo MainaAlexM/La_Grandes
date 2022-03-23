@@ -1,21 +1,20 @@
 body  {
     background-image: url("../assets/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.webp"); 
-    /* background-color: #C5A880;  */
     color:white;
     background-repeat: no-repeat; 
     background-size: cover; 
     background-attachment: fixed; 
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'poppins', serif;
     font-family: 'Lora', serif;
+    font-size: 1.2em;
     margin-top: 5%;
     padding-bottom: 20%;
-  } 
-  #form-control {
-    background-color: rgba(0, 0,0, 0);
-
-}
+  }
+  .form-contact{
+    background-color: rgba(0, 0,0, 0.5);
+  }
 #name::placeholder {
     text-align: center;
     
@@ -44,43 +43,19 @@ body  {
     border:2px solid-grey;
     padding-top: 5px;
 }
+.button{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
 .US {
     text-align: center;
     color: white;
     float: left;
 }
 .row {
-  padding-top: 5p;
+  padding-top: 1em;
 }
-/* .footer {
-    position: static;
-    text-align: center;
-}
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  } */
-  
-  /* input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  } */
-  
   div {
     border-radius: 5px;
     /* background-color: #C5A880; */
@@ -174,8 +149,6 @@ input[type=text], select {
     color: #fff;
     text-align: center;
   }
-  © 2022 GitHub, Inc.
-  Terms
   
     
 
