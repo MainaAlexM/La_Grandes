@@ -292,7 +292,11 @@ section {
 }
 .footer {
   background-color: #24262b;
-  padding: 70px 0;
+  padding: 20px 0;
+}
+.copyright a{
+  text-decoration: none;
+  color: white;
 }
 .footer-col {
   width: 25%;
