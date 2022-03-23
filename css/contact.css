@@ -1,7 +1,7 @@
 body  {
     background-image: url("../assets/h1.jpg");
     background-color: #C5A880;
-    color:black;
+    color:red;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -10,22 +10,22 @@ body  {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Lora', serif;
     margin-top: 5%;
+    padding-bottom: 20%;
   }
-  form-control {
+  #form-control {
     background-color: rgba(0, 0,0, 0);
 
 }
 #name::placeholder {
-    color: blue;
+    text-align: center;
     
 }
 #email::placeholder {
-    color: blue;
     box-sizing: border-box;
+    text-justify: auto;
     
 }
 #message::placeholder {
-    color: blue;
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -44,8 +44,9 @@ body  {
 .US {
     text-align: center;
     color: white;
+    float: left;
 }
-.footer {
+/* .footer {
     position: static;
     text-align: center;
 }
@@ -57,9 +58,9 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+  } */
   
-  input[type=submit] {
+  /* input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -72,14 +73,14 @@ input[type=text], select {
   
   input[type=submit]:hover {
     background-color: #45a049;
-  }
+  } */
   
-  div {
+  /* div {
     border-radius: 5px;
     background-color: #C5A880;
     padding: 20px;
   }
-    
+     */
 
 
 

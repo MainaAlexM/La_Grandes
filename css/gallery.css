@@ -2,9 +2,10 @@ body {
 font-family: 'Libre Baskerville', serif;
 font-family: 'Lora', serif;
 font-family: 'Playball', cursive;
-background-image: url("paper.gif");
+/* background-image: url("paper.gif"); */
 background-attachment: fixed;
-background-color: #c5a880;
+background-color:  #C5A880;
+background-size: auto;
 
 }
 h1 {
@@ -12,21 +13,27 @@ h1 {
 }
 P {
     text-align: center;
+    padding: 10px 0px;
+    margin: 10px,20px;
+    
 
 }
 div {
     text-align: center;
 }
 img {
-    max-width: 100%
+    max-width: 100%;
+    border-radius: 8px;
   }
-  .image {
-    flex-basis: 40%
+  /* .image {
+    flex-basis: 40% */
+
   }
-  .text {
+  /* .text {
     font-size: 20px;
     padding-left: 20px;
-    font-family: 'Cardo', serif;
+    font-family: 'Cardo', serif; */
+
   }
   * {
     box-sizing: border-box;
@@ -39,11 +46,12 @@ img {
   }
   
   /* Clearfix (clear floats) */
-  .row::after {
+  /* .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+    padding-bottom: 10px;
+  } */
 
 
  
