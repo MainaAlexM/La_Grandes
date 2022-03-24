@@ -1,0 +1,170 @@
+.intro {
+	height: 100vh;
+	background-image: url("../images/reservation.jpg");
+	background-size: 100%;
+	width: 100%;
+    margin-bottom: 2rem;
+}
+.intro-page h2 {
+	text-align: center;
+	padding-top: 20rem;
+    color: black;
+	font-size: 4em;
+    font-family:poppins; 
+    font-style: italic;
+	font-weight: 900;
+}
+.display{
+    background-color: none;
+}
+.display img {
+	height: 25rem;
+}
+.appointment{
+    margin: 0rem auto;
+}
+.appointment h3{
+    padding: 1rem 2rem;
+}
+.head-underline{
+color: burlywood;
+}.order-meal{
+    background-image:url(../images/meals.jpg);
+    background-size: 100%;
+}
+.book-meal{
+    padding: 2rem 0rem;
+    background: rgba(255, 224, 240, 0.7);
+    backdrop-filter: blur(5px);
+    margin: 0rem;
+}
+.book-meal h3{
+    padding: 1rem 2rem;
+}
+.meals-booking{
+    padding: 0.4rem;
+}
+.meals-booking p {
+	font-family: poppins;
+	font-style: italic;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0F0F0F;
+}
+
+.heading-tags{
+    text-align: center;
+    text-decoration: underline #C5A880 1rem;
+    margin: 2rem;
+    font-family: poppins;
+    font-size: 3em;
+    color: #0F0F0F;
+}
+
+.sub-head-tags{
+    margin: 0rem 2rem 2rem;
+    color: #0F0F0F;
+    font-family: poppins;
+    font-size: 2rem;
+}
+.preferred-delivery{
+    margin: 2em 1em 1.5em;
+}
+.order-img{
+    height: 15rem;
+}
+/* .collection{
+    height: 30rem;
+} */
+.form-img{
+    height: 5rem;
+}
+.btn{
+    background-color: black;
+    border: black 1rem;
+    text-align: center;
+}
+.appointment{
+    margin: auto;
+}
+.button{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color:#C5A880;
+}
+.btn::after{
+    background-color: aliceblue;
+}
+.btn:active{
+    background-color: aliceblue;
+}
+.choices{
+    width: 40%;
+    margin: 0 auto;
+}
+.choices img{
+    height: 20rem;
+    margin: 0rem 2rem;
+}
+.select-group>select{
+    background-color: #F3D5C0;
+    width: 15rem;
+    text-align: center;
+    margin: 0rem auto;
+}
+.select-group>label{
+    text-align: left;
+    padding: 0rem 0.1rem 0.4rem 0rem;
+    width: 15rem;
+    font-weight: 800;
+}
+.form-check-input{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0rem 1.5rem;
+}
+.form-group{
+    padding: 0.2rem;
+}
+.form-group p{
+    font-size: 1.2rem;
+}
+.form-area button{
+    width: 15rem;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.section{
+    margin-bottom: 2rem;
+}
+.section:hover{
+    border-top: #0F0F0F medium solid;
+}
+.form-area{
+    background-image: url(../images/snack.jpg);
+    background-size: 100%;
+}
+.form-blur{
+    padding: 5rem;
+    background: rgba(250, 239, 212, 0.7);
+    background-size: cover;
+    backdrop-filter: blur(0.1px);
+    font-size: larger;
+    margin: 0rem;
+    color: #0F0F0F;
+}
+
+.delivery-contacts{
+    padding-top: 40px;
+    display: none;
+}
+#order-summary{
+    display: none;
+}
