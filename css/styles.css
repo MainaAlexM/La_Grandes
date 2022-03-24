@@ -97,6 +97,13 @@ section {
 .home .content p {
   margin-bottom: 65px;
 }
+.content{
+  background-color: rgba(1, 1, 1, 0.5);
+  padding: 1.3em;
+  width: fit-content;
+  line-height: 2em;
+  font-size: 1.2em;
+}
 .home .content a {
   background: #fff;
   padding: 15px 35px;
