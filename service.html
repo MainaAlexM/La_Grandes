@@ -15,6 +15,7 @@
       crossorigin="anonymous"
     />
     <!-- Stylesheets from Grace -->
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
@@ -31,7 +32,7 @@
         <div class="navigation">
         <div class="navigation-items">
             <!-- navbar links -->
-            <a href="index.html">Home</a>
+            <a href="index.html" id="home">Home</a>
             <!-- <a href="#">About</a> -->
             <a href="service.html">Services</a>
             <a href="gallery.html">Gallery</a>
@@ -41,9 +42,10 @@
         </div>
     </header>
     <!-- End of Navigation bar -->
-    <div class="text-center">
+
+    <!-- <div class="text-center">
       <h2>Services</h2>
-    </div>
+    </div> -->
     <div class="container-fluid row card-holder">
       <div class="card col-sm col-3 col-md col-lg">
         <div class="image">
@@ -101,11 +103,9 @@
     </div>
     <div class="carousel container">
       <div class="Menu category" id="menu">
-        <div
-          id="carouselExampleDark"
+        <div id="carouselExampleDark"
           class="carousel slide"
-          data-bs-ride="carousel"
-        >
+          data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button
               type="button"
@@ -244,7 +244,7 @@
     <!-- Footer From Grace -->
     <!-- Footer Section -->
     <footer class="footer">
-      <div class="container">
+      <div class="container-fluid">
       <div class="row">
           <div class="footer-col">
           <h4>Restaurant</h4>
@@ -287,9 +287,9 @@
       </div>
       </div>
   </footer>
-  <div class="container-fluid text-center footer">
-      <!-- Copyright -->
-      <p>&copy; 2022 | La Grandes</p>
+  <div class="container-fluid grace text-center footer copyright">
+    <!-- Copyright -->
+    <p>&copy; 2022 |  <a href="#home">La Grandes</p></a>
   </div>
   <!-- script From Grace -->
          <script
