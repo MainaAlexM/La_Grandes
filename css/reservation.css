@@ -74,6 +74,9 @@ color: burlywood;
 .order-img{
     height: 15rem;
 }
+/* .collection{
+    height: 30rem;
+} */
 .form-img{
     height: 5rem;
 }
@@ -156,5 +159,12 @@ color: burlywood;
     font-size: larger;
     margin: 0rem;
     color: #0F0F0F;
+}
 
+.delivery-contacts{
+    padding-top: 40px;
+    display: none;
+}
+#order-summary{
+    display: none;
 }
